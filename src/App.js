@@ -9,6 +9,7 @@ const client = new ApolloClient({
 
 // components
 import BookList from './components/BookList';
+import AddBook from './components/AddBook';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <div id="main">
           <h1>Reading List</h1>
           <BookList />
+          <AddBook />
         </div>
       </ApolloProvider>
     );
